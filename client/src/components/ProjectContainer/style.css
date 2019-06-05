@@ -168,3 +168,23 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 1301px) {
+    .sideSpace {
+        width: 10vw;
+    }
+    .projectOneContainer {
+        width: 80vw;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .sideSpace {
+        width: 5vw;
+    }
+    .projectOneContainer {
+        width: 90vw;
+    }
+    
+}
