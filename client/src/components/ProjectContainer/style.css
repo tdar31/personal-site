@@ -1,0 +1,86 @@
+.sideSpace {
+    display: inline-block;
+    width: 15vw;
+}
+
+.projectOneContainer {
+    display: inline-block;
+    width: 70vw;
+    text-align: center;
+    padding: 10px;
+}
+
+.homePageSBS {
+    height: 250px;
+    width: auto;
+    margin: 15px;
+}
+
+.projectTitle {
+    font-size: 36px;
+    vertical-align: middle;
+    margin-top: 80px;
+}
+
+.projectLink {
+    color: black;
+    font-size: 16px;
+}
+
+.projectDescription {
+    margin: 15px;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.htmlLogo,
+.cssLogo,
+.jsLogo,
+.reactLogo,
+.gMapsLogo,
+.mongoDBLogo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.htmlLogo {
+    height: 34px;
+    width: 34px;
+    margin-right: 5px;
+}
+
+.jsLogo {
+    height: 30px;
+    width: 30px;
+    margin-right: 0px;
+}
+
+.cssLogo {
+    height: 40px;
+    width: 40px;
+}
+
+.reactLogo {
+    height: 45px;
+    width: 45px;
+    margin-right: 0px;
+}
+
+.riotLogo {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.gMapsLogo {
+    height: 35px;
+    width: 35px;
+}
+
+.mongoDBLogo {
+    height: 85px;
+    width: 85px;
+}
