@@ -95,7 +95,7 @@ function ProjectContainer() {
                     <img className="homePageSBS" src={pageSBS} />
 
                     <div className="projectDescription">
-                        Seattle Brewery Search is a site that provides an
+                        Seattle Brewery Search is a full stack web application that provides an
                         interactive map that shows the locations of all the
                         breweries in the greater Seattle area. The site uses the
                         Google Maps API to generate the interactive map with
@@ -174,7 +174,7 @@ function ProjectContainer() {
                     <img className="homePageSBS" src={fyreMatch} />
 
                     <div className="projectDescription">
-                        Fyre.gg is a site provides on demand and indepth player
+                        Fyre.gg is a full stack web application provides on demand and indepth player
                         statistics for the game League of Legends. It allows
                         users to search for both profiles and specific matches
                         with dynamic photos, tooltips of items, spells and
