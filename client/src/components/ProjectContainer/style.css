@@ -53,6 +53,7 @@
 .jsLogo {
     height: 30px;
     width: 30px;
+    margin-right: 5px;
 }
 
 .cssLogo {
@@ -151,4 +152,19 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
+}
+
+
+.headerTitle {
+    font-size: 48px;
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.project1Title {
+    font-size: 36px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }

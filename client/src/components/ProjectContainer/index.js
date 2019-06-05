@@ -23,6 +23,7 @@ import jqueryLogo from "../assets/icons/jquery-1.svg";
 import sassLogo from "../assets/icons/sass-1.svg";
 import mochaLogo from "../assets/icons/mocha-1.svg";
 import chaiLogo from "../assets/icons/chai.svg";
+import javaLogo from "../assets/icons/java-4.svg";
 import bulmaLogo from "../assets/images/bulma-logo2.png";
 
 function ProjectContainer() {
@@ -32,7 +33,43 @@ function ProjectContainer() {
             <div className="projectContainer">
                 <div className="sideSpace" />
                 <div className="projectOneContainer">
-                    <div className="projectTitle">
+                    <div className="headerTitle">
+                        Hi I'm Tristan Dardani
+                        <br />
+                        Web Developer
+                        <br />
+                        <a
+                            className="projectLink"
+                            href="mailto:t.dardani8@gmail.com"
+                            target="_blank"
+                        >
+                            <i>t.dardani8@gmail.com</i>
+                        </a>
+                        <span className="projectLink"> | </span>
+                        <a
+                            className="projectLink"
+                            href="TDardani_Resume_2019.pdf"
+                            target="_blank"
+                        >
+                            <i>Resume</i>
+                        </a>
+                        <span className="projectLink"> | </span>
+                        <a
+                            className="projectLink"
+                            href="https://github.com/tdar31/"
+                            target="_blank"
+                        >
+                            <i>Github</i>
+                        </a>
+                    </div>
+                </div>
+                <div className="sideSpace" />
+            </div>
+
+            <div className="projectContainer">
+                <div className="sideSpace" />
+                <div className="projectOneContainer">
+                    <div className="project1Title">
                         Seattle Brewery Search
                         <br />
                         <a
@@ -197,6 +234,11 @@ function ProjectContainer() {
                             src={jsLogo}
                         />
                         <img
+                            className="mochaLogo"
+                            data-tip="Java"
+                            src={javaLogo}
+                        />
+                        <img
                             className="jqueryLogo"
                             data-tip="jQuery"
                             src={jqueryLogo}
@@ -252,33 +294,6 @@ function ProjectContainer() {
                             data-tip="Chai"
                             src={chaiLogo}
                         />
-                    </div>
-                    <div className="projectTitle">
-                        Personal Links
-                        <br />
-                        <a
-                            className="projectLink"
-                            href="mailto:t.dardani8@gmail.com"
-                            target="_blank"
-                        >
-                            <i>t.dardani8@gmail.com</i>
-                        </a>
-                        <span className="projectLink"> | </span>
-                        <a
-                            className="projectLink"
-                            href="TDardani_Resume_2019.pdf"
-                            target="_blank"
-                        >
-                            <i>Resume</i>
-                        </a>
-                        <span className="projectLink"> | </span>
-                        <a
-                            className="projectLink"
-                            href="https://github.com/tdar31/"
-                            target="_blank"
-                        >
-                            <i>Github</i>
-                        </a>
                     </div>
                 </div>
                 <div className="sideSpace" />
