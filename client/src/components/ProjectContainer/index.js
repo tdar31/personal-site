@@ -48,7 +48,7 @@ function ProjectContainer() {
                         <span className="projectLink"> | </span>
                         <a
                             className="projectLink"
-                            href="TDardani_Resume_2019.pdf"
+                            href="TDardaniResume2019.pdf"
                             target="_blank"
                         >
                             <i>Resume</i>
@@ -94,7 +94,9 @@ function ProjectContainer() {
                     <div className="projectDescription">
                         Seattle Brewery Search is a site that provides an
                         interactive map that shows the locations of all the
-                        breweries in the greater Seattle area.
+                        breweries in the greater Seattle area. The site uses the
+                        Google Maps API to generate the interactive map with custom
+                        markers for each brewery.
                     </div>
                     <div className="projectTechnologies">
                         <img
@@ -164,10 +166,7 @@ function ProjectContainer() {
                         users to search for both profiles and specific matches
                         with dynamic photos, tooltips of items, spells and
                         calculations of relevant statistics just as Kill/Death
-                        ratio and Creep score. The game boasts a player base of
-                        hundreds of millions of players world wide and is
-                        considered to be one of the most popular games in the
-                        world.
+                        ratio and Creep score.
                     </div>
                     <div className="projectTechnologies">
                         <img
@@ -233,16 +232,8 @@ function ProjectContainer() {
                             data-tip="Javascript"
                             src={jsLogo}
                         />
-                        <img
-                            className="mochaLogo"
-                            data-tip="Java"
-                            src={javaLogo}
-                        />
-                        <img
-                            className="jqueryLogo"
-                            data-tip="jQuery"
-                            src={jqueryLogo}
-                        />
+                        <img className="mochaLogo" src={javaLogo} />
+                        <img className="jqueryLogo" src={jqueryLogo} />
                         <img
                             className="bootstrapLogo"
                             data-tip="Bootstrap"
@@ -263,16 +254,8 @@ function ProjectContainer() {
                             data-tip="HandlebarsJS"
                             src={handlebars}
                         />
-                        <img
-                            className="reactLogo"
-                            data-tip="Express"
-                            src={expressLogo}
-                        />
-                        <img
-                            className="mysqlLogo"
-                            data-tip="MySQL"
-                            src={mySQLLogo}
-                        />
+                        <img className="reactLogo" src={expressLogo} />
+                        <img className="mysqlLogo" src={mySQLLogo} />
                         <img
                             className="sequelizeLogo"
                             data-tip="Sequelize ORM"
