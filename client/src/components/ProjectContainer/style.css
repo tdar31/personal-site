@@ -181,10 +181,10 @@
 
 @media only screen and (max-width: 700px) {
     .sideSpace {
-        width: 5vw;
+        width: 0vw;
     }
     .projectOneContainer {
-        width: 90vw;
+        width: 100vw;
     }
     
 }
