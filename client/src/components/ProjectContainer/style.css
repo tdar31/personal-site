@@ -194,4 +194,9 @@
     .projectOneContainer {
         width: 100vw;
     }
+    .homePageSBS {
+        height: 175px;
+        width: auto;
+        margin: 10px;
+    }
 }
