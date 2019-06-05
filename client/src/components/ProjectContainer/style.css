@@ -53,7 +53,6 @@
 .jsLogo {
     height: 30px;
     width: 30px;
-    margin-right: 0px;
 }
 
 .cssLogo {
@@ -62,9 +61,16 @@
 }
 
 .reactLogo {
-    height: 45px;
-    width: 45px;
+    height: 55px;
+    width: 55px;
     margin-right: 0px;
+}
+
+.bootstrapLogo {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .riotLogo {
@@ -83,4 +89,66 @@
 .mongoDBLogo {
     height: 85px;
     width: 85px;
+}
+
+.sassLogo {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.jqueryLogo {
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bulmaLogo {
+    height: 45px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.handlebarsLogo {
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mysqlLogo {
+    height: 55px;
+    width: 55px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sequelizeLogo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.mochaLogo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.chaiLogo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
 }

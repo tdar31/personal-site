@@ -2,6 +2,10 @@ import React from "react";
 import "./style.css";
 import homePageSBS from "../assets/images/homePageSBS.gif";
 import pageSBS from "../assets/images/page2.png";
+import fyreHome from "../assets/images/fyreHome.png";
+import fyreMatch from "../assets/images/fyreggMatch.png";
+import ReactTooltip from "react-tooltip";
+//
 import htmlLogo from "../assets/icons/html5.svg";
 import cssLogo from "../assets/icons/css3.svg";
 import jsLogo from "../assets/icons/javascript.svg";
@@ -10,10 +14,21 @@ import gMapsLogo from "../assets/icons/GoogleMapsLogo.svg";
 import riotLogo from "../assets/icons/riot-games.svg";
 import mongoDBLogo from "../assets/icons/mongodb.svg";
 import mongooseLogo from "../assets/icons/mongoose.jpg";
+import mySQLLogo from "../assets/icons/mysql.svg";
+import bootstrapLogo from "../assets/icons/bootstrap-4.svg";
+import handlebars from "../assets/icons/handlebarsjs-icon.svg";
+import sequelizeLogo from "../assets/icons/sequelize.svg";
+import expressLogo from "../assets/icons/express-109.svg";
+import jqueryLogo from "../assets/icons/jquery-1.svg";
+import sassLogo from "../assets/icons/sass-1.svg";
+import mochaLogo from "../assets/icons/mocha-1.svg";
+import chaiLogo from "../assets/icons/chai.svg";
+import bulmaLogo from "../assets/images/bulma-logo2.png";
 
 function ProjectContainer() {
     return (
         <div>
+            <ReactTooltip place="top" type="dark" effect="solid" />
             <div className="projectContainer">
                 <div className="sideSpace" />
                 <div className="projectOneContainer">
@@ -45,13 +60,37 @@ function ProjectContainer() {
                         breweries in the greater Seattle area.
                     </div>
                     <div className="projectTechnologies">
-                        <img className="htmlLogo" src={htmlLogo} />
-                        <img className="cssLogo" src={cssLogo} />
-                        <img className="jsLogo" src={jsLogo} />
-                        <img className="reactLogo" src={reactLogo} />
-                        <img className="gMapsLogo" src={gMapsLogo} />
+                        <img
+                            className="htmlLogo"
+                            data-tip="HTML5"
+                            src={htmlLogo}
+                        />
+                        <img
+                            className="cssLogo"
+                            data-tip="CSS3"
+                            src={cssLogo}
+                        />
+                        <img
+                            className="jsLogo"
+                            data-tip="Javascript"
+                            src={jsLogo}
+                        />
+                        <img
+                            className="reactLogo"
+                            data-tip="React"
+                            src={reactLogo}
+                        />
+                        <img
+                            className="gMapsLogo"
+                            data-tip="Google Maps API"
+                            src={gMapsLogo}
+                        />
                         <img className="mongoDBLogo" src={mongoDBLogo} />
-                        <img className="reactLogo" src={mongooseLogo} />
+                        <img
+                            className="reactLogo"
+                            data-tip="Mongoose ODM"
+                            src={mongooseLogo}
+                        />
                     </div>
                 </div>
                 <div className="sideSpace" />
@@ -79,8 +118,8 @@ function ProjectContainer() {
                             <i>Github Repo</i>
                         </a>
                     </div>
-                    <img className="homePageSBS" src={homePageSBS} />
-                    <img className="homePageSBS" src={pageSBS} />
+                    <img className="homePageSBS" src={fyreHome} />
+                    <img className="homePageSBS" src={fyreMatch} />
 
                     <div className="projectDescription">
                         Fyre.gg is a site provides on demand and indepth player
@@ -94,13 +133,152 @@ function ProjectContainer() {
                         world.
                     </div>
                     <div className="projectTechnologies">
-                        <img className="htmlLogo" src={htmlLogo} />
-                        <img className="cssLogo" src={cssLogo} />
-                        <img className="jsLogo" src={jsLogo} />
-                        <img className="reactLogo" src={reactLogo} />
-                        <img className="riotLogo" src={riotLogo} />
+                        <img
+                            className="htmlLogo"
+                            data-tip="HTML5"
+                            src={htmlLogo}
+                        />
+                        <img
+                            className="cssLogo"
+                            data-tip="CSS3"
+                            src={cssLogo}
+                        />
+                        <img
+                            className="jsLogo"
+                            data-tip="Javascript"
+                            src={jsLogo}
+                        />
+                        <img
+                            className="reactLogo"
+                            data-tip="React"
+                            src={reactLogo}
+                        />
+                        <img
+                            className="riotLogo"
+                            data-tip="Riot Games API"
+                            src={riotLogo}
+                        />
                         <img className="mongoDBLogo" src={mongoDBLogo} />
-                        <img className="reactLogo" src={mongooseLogo} />
+                        <img
+                            className="reactLogo"
+                            data-tip="Mongoose ODM"
+                            src={mongooseLogo}
+                        />
+                    </div>
+                </div>
+                <div className="sideSpace" />
+            </div>
+
+            <div className="projectContainer">
+                <div className="sideSpace" />
+                <div className="projectOneContainer">
+                    <div className="projectDescription">
+                        All technologies I have experience with:
+                    </div>
+                    <div className="projectTechnologies">
+                        <img
+                            className="htmlLogo"
+                            data-tip="HTML5"
+                            src={htmlLogo}
+                        />
+                        <img
+                            className="cssLogo"
+                            data-tip="CSS3"
+                            src={cssLogo}
+                        />
+                        <img
+                            className="sassLogo"
+                            data-tip="Sass"
+                            src={sassLogo}
+                        />
+                        <img
+                            className="jsLogo"
+                            data-tip="Javascript"
+                            src={jsLogo}
+                        />
+                        <img
+                            className="jqueryLogo"
+                            data-tip="jQuery"
+                            src={jqueryLogo}
+                        />
+                        <img
+                            className="bootstrapLogo"
+                            data-tip="Bootstrap"
+                            src={bootstrapLogo}
+                        />
+                        <img
+                            className="bulmaLogo"
+                            data-tip="Bulma"
+                            src={bulmaLogo}
+                        />
+                        <img
+                            className="reactLogo"
+                            data-tip="React / React Native"
+                            src={reactLogo}
+                        />
+                        <img
+                            className="handlebarsLogo"
+                            data-tip="HandlebarsJS"
+                            src={handlebars}
+                        />
+                        <img
+                            className="reactLogo"
+                            data-tip="Express"
+                            src={expressLogo}
+                        />
+                        <img
+                            className="mysqlLogo"
+                            data-tip="MySQL"
+                            src={mySQLLogo}
+                        />
+                        <img
+                            className="sequelizeLogo"
+                            data-tip="Sequelize ORM"
+                            src={sequelizeLogo}
+                        />
+                        <img className="mongoDBLogo" src={mongoDBLogo} />
+                        <img
+                            className="reactLogo"
+                            data-tip="Mongoose ODM"
+                            src={mongooseLogo}
+                        />
+                        <img
+                            className="mochaLogo"
+                            data-tip="Mocha"
+                            src={mochaLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Chai"
+                            src={chaiLogo}
+                        />
+                    </div>
+                    <div className="projectTitle">
+                        Personal Links
+                        <br />
+                        <a
+                            className="projectLink"
+                            href="mailto:t.dardani8@gmail.com"
+                            target="_blank"
+                        >
+                            <i>t.dardani8@gmail.com</i>
+                        </a>
+                        <span className="projectLink"> | </span>
+                        <a
+                            className="projectLink"
+                            href="TDardani_Resume_2019.pdf"
+                            target="_blank"
+                        >
+                            <i>Resume</i>
+                        </a>
+                        <span className="projectLink"> | </span>
+                        <a
+                            className="projectLink"
+                            href="https://github.com/tdar31/"
+                            target="_blank"
+                        >
+                            <i>Github</i>
+                        </a>
                     </div>
                 </div>
                 <div className="sideSpace" />
