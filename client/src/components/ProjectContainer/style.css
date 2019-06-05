@@ -1,3 +1,5 @@
+/* Really need to clean up some of this code :( */
+
 .sideSpace {
     display: inline-block;
     width: 15vw;
@@ -151,9 +153,16 @@
     width: 40px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
+.mongooseLogo {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 .headerTitle {
     font-size: 48px;
@@ -176,7 +185,6 @@
     .projectOneContainer {
         width: 80vw;
     }
-    
 }
 
 @media only screen and (max-width: 700px) {
@@ -186,5 +194,4 @@
     .projectOneContainer {
         width: 100vw;
     }
-    
 }

@@ -25,6 +25,9 @@ import mochaLogo from "../assets/icons/mocha-1.svg";
 import chaiLogo from "../assets/icons/chai.svg";
 import javaLogo from "../assets/icons/java-4.svg";
 import bulmaLogo from "../assets/images/bulma-logo2.png";
+import illLogo from "../assets/icons/adobe-illustrator-cc.svg";
+import phLogo from "../assets/icons/photoshop-cc.svg";
+import prLogo from "../assets/icons/premiere-cc.svg";
 
 function ProjectContainer() {
     return (
@@ -95,8 +98,8 @@ function ProjectContainer() {
                         Seattle Brewery Search is a site that provides an
                         interactive map that shows the locations of all the
                         breweries in the greater Seattle area. The site uses the
-                        Google Maps API to generate the interactive map with custom
-                        markers for each brewery.
+                        Google Maps API to generate the interactive map with
+                        custom markers for each brewery.
                     </div>
                     <div className="projectTechnologies">
                         <img
@@ -126,9 +129,19 @@ function ProjectContainer() {
                         />
                         <img className="mongoDBLogo" src={mongoDBLogo} />
                         <img
-                            className="reactLogo"
+                            className="mongooseLogo"
                             data-tip="Mongoose ODM"
                             src={mongooseLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Photoshop"
+                            src={phLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Illustrator"
+                            src={illLogo}
                         />
                     </div>
                 </div>
@@ -199,6 +212,16 @@ function ProjectContainer() {
                             className="reactLogo"
                             data-tip="Mongoose ODM"
                             src={mongooseLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Photoshop"
+                            src={phLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Illustrator"
+                            src={illLogo}
                         />
                     </div>
                 </div>
@@ -276,6 +299,21 @@ function ProjectContainer() {
                             className="chaiLogo"
                             data-tip="Chai"
                             src={chaiLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Photoshop"
+                            src={phLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Illustrator"
+                            src={illLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Premiere"
+                            src={prLogo}
                         />
                     </div>
                 </div>
