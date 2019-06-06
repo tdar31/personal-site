@@ -51,7 +51,7 @@ function ProjectContainer() {
                         <span className="projectLink"> | </span>
                         <a
                             className="projectLink"
-                            href="TDardaniResume2019.pdf"
+                            href="TDardani_Resume2019.pdf"
                             target="_blank"
                         >
                             <i>Resume</i>
