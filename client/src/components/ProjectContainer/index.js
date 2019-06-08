@@ -28,6 +28,7 @@ import bulmaLogo from "../assets/images/bulma-logo2.png";
 import illLogo from "../assets/icons/adobe-illustrator-cc.svg";
 import phLogo from "../assets/icons/photoshop-cc.svg";
 import prLogo from "../assets/icons/premiere-cc.svg";
+import pythonLogo from "../assets/icons/python-5.svg";
 
 function ProjectContainer() {
     return (
@@ -48,14 +49,14 @@ function ProjectContainer() {
                         >
                             <i>t.dardani8@gmail.com</i>
                         </a>
-                        <span className="projectLink"> | </span>
+                        {/* <span className="projectLink"> | </span>
                         <a
                             className="projectLink"
                             href="TDardani_Resume2019.pdf"
                             target="_blank"
                         >
                             <i>Resume</i>
-                        </a>
+                        </a> */}
                         <span className="projectLink"> | </span>
                         <a
                             className="projectLink"
@@ -95,11 +96,11 @@ function ProjectContainer() {
                     <img className="homePageSBS" src={pageSBS} />
 
                     <div className="projectDescription">
-                        Seattle Brewery Search is a full stack web application that provides an
-                        interactive map that shows the locations of all the
-                        breweries in the greater Seattle area. The site uses the
-                        Google Maps API to generate the interactive map with
-                        custom markers for each brewery.
+                        Seattle Brewery Search is a full stack web application
+                        that provides an interactive map that shows the
+                        locations of all the breweries in the greater Seattle
+                        area. The site uses the Google Maps API to generate the
+                        interactive map with custom markers for each brewery.
                     </div>
                     <div className="projectTechnologies">
                         <img
@@ -174,12 +175,12 @@ function ProjectContainer() {
                     <img className="homePageSBS" src={fyreMatch} />
 
                     <div className="projectDescription">
-                        Fyre.gg is a full stack web application provides on demand and indepth player
-                        statistics for the game League of Legends. It allows
-                        users to search for both profiles and specific matches
-                        with dynamic photos, tooltips of items, spells and
-                        calculations of relevant statistics just as Kill/Death
-                        ratio and Creep score.
+                        Fyre.gg is a full stack web application provides on
+                        demand and indepth player statistics for the game League
+                        of Legends. It allows users to search for both profiles
+                        and specific matches with dynamic photos, tooltips of
+                        items, spells and calculations of relevant statistics
+                        just as Kill/Death ratio and Creep score.
                     </div>
                     <div className="projectTechnologies">
                         <img
@@ -256,6 +257,11 @@ function ProjectContainer() {
                             src={jsLogo}
                         />
                         <img className="mochaLogo" src={javaLogo} />
+                        <img
+                            className="cssLogo"
+                            data-tip="Python"
+                            src={pythonLogo}
+                        />
                         <img className="jqueryLogo" src={jqueryLogo} />
                         <img
                             className="bootstrapLogo"
