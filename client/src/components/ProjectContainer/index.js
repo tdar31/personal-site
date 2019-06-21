@@ -49,14 +49,6 @@ function ProjectContainer() {
                         >
                             <i>t.dardani8@gmail.com</i>
                         </a>
-                        {/* <span className="projectLink"> | </span>
-                        <a
-                            className="projectLink"
-                            href="TDardani_Resume2019.pdf"
-                            target="_blank"
-                        >
-                            <i>Resume</i>
-                        </a> */}
                         <span className="projectLink"> | </span>
                         <a
                             className="projectLink"
