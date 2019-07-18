@@ -65,85 +65,6 @@ function ProjectContainer() {
             <div className="projectContainer">
                 <div className="sideSpace" />
                 <div className="projectOneContainer">
-                    <div className="project1Title">
-                        Seattle Brewery Search
-                        <br />
-                        <a
-                            className="projectLink"
-                            href="https://www.seattlebrewerysearch.com"
-                            target="_blank"
-                        >
-                            <i>www.seattlebrewerysearch.com </i>
-                        </a>
-                        <span className="projectLink"> | </span>
-                        <a
-                            className="projectLink"
-                            href="https://github.com/tdar31/Seattle-Brewery-Search"
-                            target="_blank"
-                        >
-                            <i>Github Repo</i>
-                        </a>
-                    </div>
-                    <img className="homePageSBS" src={homePageSBS} />
-                    <img className="homePageSBS" src={pageSBS} />
-
-                    <div className="projectDescription">
-                        Seattle Brewery Search is a full stack web application
-                        that provides an interactive map that shows the
-                        locations of all the breweries in the greater Seattle
-                        area. The site uses the Google Maps API to generate the
-                        interactive map with custom markers for each brewery.
-                    </div>
-                    <div className="projectTechnologies">
-                        <img
-                            className="htmlLogo"
-                            data-tip="HTML5"
-                            src={htmlLogo}
-                        />
-                        <img
-                            className="cssLogo"
-                            data-tip="CSS3"
-                            src={cssLogo}
-                        />
-                        <img
-                            className="jsLogo"
-                            data-tip="Javascript"
-                            src={jsLogo}
-                        />
-                        <img
-                            className="reactLogo"
-                            data-tip="React"
-                            src={reactLogo}
-                        />
-                        <img
-                            className="gMapsLogo"
-                            data-tip="Google Maps API"
-                            src={gMapsLogo}
-                        />
-                        <img className="mongoDBLogo" src={mongoDBLogo} />
-                        <img
-                            className="mongooseLogo"
-                            data-tip="Mongoose ODM"
-                            src={mongooseLogo}
-                        />
-                        <img
-                            className="chaiLogo"
-                            data-tip="Adobe Photoshop"
-                            src={phLogo}
-                        />
-                        <img
-                            className="chaiLogo"
-                            data-tip="Adobe Illustrator"
-                            src={illLogo}
-                        />
-                    </div>
-                </div>
-                <div className="sideSpace" />
-            </div>
-
-            <div className="projectContainer">
-                <div className="sideSpace" />
-                <div className="projectOneContainer">
                     <div className="projectTitle">
                         Fyre.gg
                         <br />
@@ -203,6 +124,85 @@ function ProjectContainer() {
                         <img className="mongoDBLogo" src={mongoDBLogo} />
                         <img
                             className="reactLogo"
+                            data-tip="Mongoose ODM"
+                            src={mongooseLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Photoshop"
+                            src={phLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Illustrator"
+                            src={illLogo}
+                        />
+                    </div>
+                </div>
+                <div className="sideSpace" />
+            </div>
+
+            <div className="projectContainer">
+                <div className="sideSpace" />
+                <div className="projectOneContainer">
+                    <div className="project1Title">
+                        Seattle Brewery Search
+                        <br />
+                        <a
+                            className="projectLink"
+                            href="https://www.seattlebrewerysearch.com"
+                            target="_blank"
+                        >
+                            <i>www.seattlebrewerysearch.com </i>
+                        </a>
+                        <span className="projectLink"> | </span>
+                        <a
+                            className="projectLink"
+                            href="https://github.com/tdar31/Seattle-Brewery-Search"
+                            target="_blank"
+                        >
+                            <i>Github Repo</i>
+                        </a>
+                    </div>
+                    <img className="homePageSBS" src={homePageSBS} />
+                    <img className="homePageSBS" src={pageSBS} />
+
+                    <div className="projectDescription">
+                        Seattle Brewery Search is a full stack web application
+                        that provides an interactive map that shows the
+                        locations of all the breweries in the greater Seattle
+                        area. The site uses the Google Maps API to generate the
+                        interactive map with custom markers for each brewery.
+                    </div>
+                    <div className="projectTechnologies">
+                        <img
+                            className="htmlLogo"
+                            data-tip="HTML5"
+                            src={htmlLogo}
+                        />
+                        <img
+                            className="cssLogo"
+                            data-tip="CSS3"
+                            src={cssLogo}
+                        />
+                        <img
+                            className="jsLogo"
+                            data-tip="Javascript"
+                            src={jsLogo}
+                        />
+                        <img
+                            className="reactLogo"
+                            data-tip="React"
+                            src={reactLogo}
+                        />
+                        <img
+                            className="gMapsLogo"
+                            data-tip="Google Maps API"
+                            src={gMapsLogo}
+                        />
+                        <img className="mongoDBLogo" src={mongoDBLogo} />
+                        <img
+                            className="mongooseLogo"
                             data-tip="Mongoose ODM"
                             src={mongooseLogo}
                         />
