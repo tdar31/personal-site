@@ -4,6 +4,7 @@ import homePageSBS from "../assets/images/homePageSBS.gif";
 import pageSBS from "../assets/images/page2.png";
 import fyreHome from "../assets/images/fyreHome.png";
 import fyreMatch from "../assets/images/fyreggMatch.png";
+import fruitHome from "../assets/images/fruitclass.png";
 import ReactTooltip from "react-tooltip";
 //
 import htmlLogo from "../assets/icons/html5.svg";
@@ -57,6 +58,83 @@ function ProjectContainer() {
                         >
                             <i>Github</i>
                         </a>
+                    </div>
+                </div>
+                <div className="sideSpace" />
+            </div>
+
+            <div className="projectContainer">
+                <div className="sideSpace" />
+                <div className="projectOneContainer">
+                    <div className="projectTitle">
+                        Fruit MachineLearning Image Classifer
+                        <br />
+                        <a
+                            className="projectLink"
+                            href="https://fruit-image-classifer.onrender.com/"
+                            target="_blank"
+                        >
+                            <i>https://fruit-image-classifer.onrender.com/</i>
+                        </a>
+                        <span className="projectLink"> | </span>
+                        <a
+                            className="projectLink"
+                            href="https://github.com/tdar31/Fruit-MachineLearning-Image-Classifer"
+                            target="_blank"
+                        >
+                            <i>Github Repo</i>
+                        </a>
+                    </div>
+
+                    <img className="homePageSBS" src={fruitHome} />
+
+                    <div className="projectDescription">
+                        Trained CNN that does image classification for various
+                        types of fruits. Simply upload a photo to return a
+                        result. Model currently has a ~82% success rate
+                        identifying the correct fruit using current training
+                        data. Current dataset are ~200 images per class taken
+                        from Google Images.
+                    </div>
+
+                    <br />
+
+                    <div className="projectDerscription">
+                        Current classes: Apple, Apricot, Avocado, Banana,
+                        Blackberry, Blueberry, Cantaloupe, Cherry, Cloudberry,
+                        Coconut, Cucumber, Date, Dragonfruit, Durian, Fig,
+                        Grape, Grapefruit, Honeyberry, Honeydew, Kiwifruit,
+                        Kumquat, Lemon, Lime, Mango, Orange, Papaya,
+                        Passionfruit, Peach, Pear, Plum, Pineapple,
+                        Pomegranante, Raspberry, Strawberry and Watermelon
+                    </div>
+
+                    <div className="projectTechnologies projectMargin">
+                        <img
+                            className="htmlLogo"
+                            data-tip="HTML5"
+                            src={htmlLogo}
+                        />
+                        <img
+                            className="cssLogo"
+                            data-tip="CSS3"
+                            src={cssLogo}
+                        />
+                        <img
+                            className="jsLogo"
+                            data-tip="Javascript"
+                            src={jsLogo}
+                        />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Python"
+                            src={pythonLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Photoshop"
+                            src={phLogo}
+                        />
                     </div>
                 </div>
                 <div className="sideSpace" />
@@ -123,7 +201,7 @@ function ProjectContainer() {
                         />
                         <img className="mongoDBLogo" src={mongoDBLogo} />
                         <img
-                            className="reactLogo"
+                            className="mongooseLogo"
                             data-tip="Mongoose ODM"
                             src={mongooseLogo}
                         />
@@ -284,7 +362,7 @@ function ProjectContainer() {
                         />
                         <img className="mongoDBLogo" src={mongoDBLogo} />
                         <img
-                            className="reactLogo"
+                            className="mongooseLogo"
                             data-tip="Mongoose ODM"
                             src={mongooseLogo}
                         />

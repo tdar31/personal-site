@@ -164,6 +164,15 @@
     vertical-align: middle;
 }
 
+.pythonLogo {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .headerTitle {
     font-size: 48px;
     vertical-align: middle;
@@ -176,6 +185,10 @@
     vertical-align: middle;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.projectMargin {
+    margin-top: 35px;
 }
 
 @media only screen and (max-width: 1301px) {
