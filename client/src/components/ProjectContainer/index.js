@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
-import homePageSBS from "../assets/images/homePageSBS.gif";
+import homePageSBS from "../assets/images/homepageSBS2.webp";
 import pageSBS from "../assets/images/page2.png";
 import fyreHome from "../assets/images/fyreHome.png";
 import fyreMatch from "../assets/images/fyreggMatch.png";
 import fruitHome from "../assets/images/fruitclass.png";
+import SLSstill from "../assets/images/STSstill.jpg";
 import ReactTooltip from "react-tooltip";
 //
 import htmlLogo from "../assets/icons/html5.svg";
@@ -41,8 +42,7 @@ function ProjectContainer() {
                     <div className="headerTitle">
                         Hi I'm Tristan Dardani
                         <br />
-                        Web Developer
-                        <br />
+                            <div>Software Developer</div>
                         <a
                             className="projectLink"
                             href="mailto:t.dardani8@gmail.com"
@@ -58,6 +58,69 @@ function ProjectContainer() {
                         >
                             <i>Github</i>
                         </a>
+                    </div>
+                </div>
+                <div className="sideSpace" />
+            </div>
+
+            <div className="projectContainer">
+                <div className="sideSpace" />
+                <div className="projectOneContainer">
+                    <div className="projectTitle">
+                        Slay The Spire Game Agent (DDQN + CNN Image Classifer)
+                        <br />
+
+                        <a
+                            className="projectLink"
+                            href="https://github.com/tdar31/SerpentSLSGameAgentPlugin"
+                            target="_blank"
+                        >
+                            <i>Github Repo</i>
+                        </a>
+                    </div>
+
+                    <img className="homePageSBS" src={SLSstill} />
+
+                    <div className="projectDescription">
+                        The following is a Slay The Spire GameAgent using DDQN and a trained CNN supervised image classifer (~3500 images for 9 classes).  It is my first foray into any Machine Learning project outside of training image classifers so most of this is pretty new to me.  The project uses Tensorflow 1.8 + Keras, Tesseract-ocr 4.00, CUDA + CUDNN 9.1.  A much more indepth README describing the project can be found at the projects Github repository
+                    </div>
+
+                    <br />
+                    
+                    <div className="projectDescription">
+                        
+                    </div>
+
+                    <div className="projectDescription">
+                        The image classifer is trained to return which stages the game is in (battle, death, reward etc.) by capturing the entire game screen then return which trained class it falls under.  Depending on the stage it's in the agent will excute different automated commands to return the game back to controlled battle stage in order to train the agent.  Decision making (DDQN) revoles around which of the five cards drawn to play each turn.  The enemy will always project its next move (attack, buff, defend etc) so the idea is that based on certain player stats and what the enemy plans on doing a decison is made.
+                    </div>
+
+                    <div className="projectTechnologies projectMargin">
+                        <img
+                            className="htmlLogo"
+                            data-tip="HTML5"
+                            src={htmlLogo}
+                        />
+                        <img
+                            className="cssLogo"
+                            data-tip="CSS3"
+                            src={cssLogo}
+                        />
+                        <img
+                            className="jsLogo"
+                            data-tip="Javascript"
+                            src={jsLogo}
+                        />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Python"
+                            src={pythonLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Photoshop"
+                            src={phLogo}
+                        />
                     </div>
                 </div>
                 <div className="sideSpace" />
@@ -99,7 +162,7 @@ function ProjectContainer() {
 
                     <br />
 
-                    <div className="projectDerscription">
+                    <div className="projectDescription">
                         Current classes: Apple, Apricot, Avocado, Banana,
                         Blackberry, Blueberry, Cantaloupe, Cherry, Cloudberry,
                         Coconut, Cucumber, Date, Dragonfruit, Durian, Fig,
