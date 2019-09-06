@@ -31,6 +31,10 @@ import illLogo from "../assets/icons/adobe-illustrator-cc.svg";
 import phLogo from "../assets/icons/photoshop-cc.svg";
 import prLogo from "../assets/icons/premiere-cc.svg";
 import pythonLogo from "../assets/icons/python-5.svg";
+import tfLogo from "../assets/icons/tensorflow-tf.svg";
+import kerasLogo from "../assets/icons/keras.svg";
+import numpyLogo from "../assets/icons/numpy-logo.svg";
+import condaLogo from "../assets/icons/conda.png";
 
 function ProjectContainer() {
     return (
@@ -42,7 +46,7 @@ function ProjectContainer() {
                     <div className="headerTitle">
                         Hi I'm Tristan Dardani
                         <br />
-                            <div>Software Developer</div>
+                        <div>Software Developer</div>
                         <a
                             className="projectLink"
                             href="mailto:t.dardani8@gmail.com"
@@ -67,9 +71,9 @@ function ProjectContainer() {
                 <div className="sideSpace" />
                 <div className="projectOneContainer">
                     <div className="projectTitle">
-                        Slay The Spire Game Agent (DDQN + CNN Image Classifer)
+                        Slay The Spire Game Agent (DDQN + CNN Image
+                        Classifer)
                         <br />
-
                         <a
                             className="projectLink"
                             href="https://github.com/tdar31/SerpentSLSGameAgentPlugin"
@@ -82,20 +86,108 @@ function ProjectContainer() {
                     <img className="homePageSBS" src={SLSstill} />
 
                     <div className="projectDescription">
-                        The following is a Slay The Spire GameAgent using DDQN and a trained CNN supervised image classifer (~3500 images for 9 classes).  It is my first foray into any Machine Learning project outside of training image classifers so most of this is pretty new to me.  The project uses Tensorflow 1.8 + Keras, Tesseract-ocr 4.00, CUDA + CUDNN 9.1.  A much more indepth README describing the project can be found at the projects Github repository
+                        The following is a Slay The Spire GameAgent using
+                        DDQN and a trained CNN supervised image classifer
+                        (~3500 images for 9 classes). It is my first foray
+                        into any Machine Learning project outside of
+                        training image classifers so most of this is pretty
+                        new to me. The project uses Tensorflow 1.8 + Keras,
+                        Tesseract-ocr 4.00, CUDA + CUDNN 9.1. A much more
+                        indepth README describing the project can be found
+                        at the project's
+                        <a
+                            className="projectLinkText"
+                            href="https://github.com/tdar31/SerpentSLSGameAgentPlugin"
+                        >
+                            Github repository
+                        </a>
                     </div>
 
                     <br />
-                    
-                    <div className="projectDescription">
-                        
-                    </div>
+
+                    <div className="projectDescription" />
 
                     <div className="projectDescription">
-                        The image classifer is trained to return which stages the game is in (battle, death, reward etc.) by capturing the entire game screen then return which trained class it falls under.  Depending on the stage it's in the agent will excute different automated commands to return the game back to controlled battle stage in order to train the agent.  Decision making (DDQN) revoles around which of the five cards drawn to play each turn.  The enemy will always project its next move (attack, buff, defend etc) so the idea is that based on certain player stats and what the enemy plans on doing a decison is made.
+                        The image classifer is trained to return which
+                        stages the game is in (battle, death, reward etc.)
+                        by capturing the entire game screen then return
+                        which trained class it falls under. Depending on the
+                        stage it's in the agent will excute different
+                        automated commands to return the game back to
+                        controlled battle stage in order to train the agent.
+                        Decision making (DDQN) revoles around which of the
+                        five cards drawn to play each turn. The enemy will
+                        always project its next move (attack, buff, defend
+                        etc) so the idea is that based on certain player
+                        stats and what the enemy plans on doing a decison is
+                        made.
                     </div>
 
                     <div className="projectTechnologies projectMargin">
+                        <img
+                            className="pythonLogo"
+                            data-tip="Python"
+                            src={pythonLogo}
+                        />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Anaconda"
+                            src={condaLogo}
+                        />     
+                        <img
+                            className="pythonLogo"
+                            data-tip="Tensorflow"
+                            src={tfLogo}
+                        />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Keras"
+                            src={kerasLogo}
+                        />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Numpy"
+                            src={numpyLogo}
+                        /> 
+                    </div>
+                </div>
+                <div className="sideSpace" />
+            </div>
+
+            <div className="projectContainer">
+                <div className="sideSpace" />
+                <div className="projectOneContainer">
+                    <div className="project1Title">
+                        Seattle Brewery Search
+                        <br />
+                        <a
+                            className="projectLink"
+                            href="https://www.seattlebrewerysearch.com"
+                            target="_blank"
+                        >
+                            <i>www.seattlebrewerysearch.com </i>
+                        </a>
+                        <span className="projectLink"> | </span>
+                        <a
+                            className="projectLink"
+                            href="https://github.com/tdar31/Seattle-Brewery-Search"
+                            target="_blank"
+                        >
+                            <i>Github Repo</i>
+                        </a>
+                    </div>
+                    <img className="homePageSBS" src={homePageSBS} />
+                    <img className="homePageSBS" src={pageSBS} />
+
+                    <div className="projectDescription">
+                        Seattle Brewery Search is a full stack web
+                        application that provides an interactive map that
+                        shows the locations of all the breweries in the
+                        greater Seattle area. The site uses the Google Maps
+                        API to generate the interactive map with custom
+                        markers for each brewery.
+                    </div>
+                    <div className="projectTechnologies">
                         <img
                             className="htmlLogo"
                             data-tip="HTML5"
@@ -112,14 +204,30 @@ function ProjectContainer() {
                             src={jsLogo}
                         />
                         <img
-                            className="pythonLogo"
-                            data-tip="Python"
-                            src={pythonLogo}
+                            className="reactLogo"
+                            data-tip="React"
+                            src={reactLogo}
+                        />
+                        <img
+                            className="gMapsLogo"
+                            data-tip="Google Maps API"
+                            src={gMapsLogo}
+                        />
+                        <img className="mongoDBLogo" src={mongoDBLogo} />
+                        <img
+                            className="mongooseLogo"
+                            data-tip="Mongoose ODM"
+                            src={mongooseLogo}
                         />
                         <img
                             className="chaiLogo"
                             data-tip="Adobe Photoshop"
                             src={phLogo}
+                        />
+                        <img
+                            className="chaiLogo"
+                            data-tip="Adobe Illustrator"
+                            src={illLogo}
                         />
                     </div>
                 </div>
@@ -130,14 +238,16 @@ function ProjectContainer() {
                 <div className="sideSpace" />
                 <div className="projectOneContainer">
                     <div className="projectTitle">
-                        Fruit MachineLearning Image Classifer
+                        Fruit Machine Learning Image Classifer
                         <br />
                         <a
                             className="projectLink"
                             href="https://fruit-image-classifer.onrender.com/"
                             target="_blank"
                         >
-                            <i>https://fruit-image-classifer.onrender.com/</i>
+                            <i>
+                                https://fruit-image-classifer.onrender.com/
+                            </i>
                         </a>
                         <span className="projectLink"> | </span>
                         <a
@@ -152,24 +262,25 @@ function ProjectContainer() {
                     <img className="homePageSBS" src={fruitHome} />
 
                     <div className="projectDescription">
-                        Trained CNN that does image classification for various
-                        types of fruits. Simply upload a photo to return a
-                        result. Model currently has a ~82% success rate
-                        identifying the correct fruit using current training
-                        data. Current dataset are ~200 images per class taken
-                        from Google Images.
+                        Trained CNN that does image classification for
+                        various types of fruits. Simply upload a photo to
+                        return a result. Model currently has a ~82% success
+                        rate identifying the correct fruit using current
+                        training data. Current dataset are ~200 images per
+                        class taken from Google Images.
                     </div>
 
                     <br />
 
                     <div className="projectDescription">
                         Current classes: Apple, Apricot, Avocado, Banana,
-                        Blackberry, Blueberry, Cantaloupe, Cherry, Cloudberry,
-                        Coconut, Cucumber, Date, Dragonfruit, Durian, Fig,
-                        Grape, Grapefruit, Honeyberry, Honeydew, Kiwifruit,
-                        Kumquat, Lemon, Lime, Mango, Orange, Papaya,
-                        Passionfruit, Peach, Pear, Plum, Pineapple,
-                        Pomegranante, Raspberry, Strawberry and Watermelon
+                        Blackberry, Blueberry, Cantaloupe, Cherry,
+                        Cloudberry, Coconut, Cucumber, Date, Dragonfruit,
+                        Durian, Fig, Grape, Grapefruit, Honeyberry,
+                        Honeydew, Kiwifruit, Kumquat, Lemon, Lime, Mango,
+                        Orange, Papaya, Passionfruit, Peach, Pear, Plum,
+                        Pineapple, Pomegranante, Raspberry, Strawberry and
+                        Watermelon
                     </div>
 
                     <div className="projectTechnologies projectMargin">
@@ -230,11 +341,12 @@ function ProjectContainer() {
 
                     <div className="projectDescription">
                         Fyre.gg is a full stack web application provides on
-                        demand and indepth player statistics for the game League
-                        of Legends. It allows users to search for both profiles
-                        and specific matches with dynamic photos, tooltips of
-                        items, spells and calculations of relevant statistics
-                        just as Kill/Death ratio and Creep score.
+                        demand and indepth player statistics for the game
+                        League of Legends. It allows users to search for
+                        both profiles and specific matches with dynamic
+                        photos, tooltips of items, spells and calculations
+                        of relevant statistics just as Kill/Death ratio and
+                        Creep score.
                     </div>
                     <div className="projectTechnologies">
                         <img
@@ -286,85 +398,6 @@ function ProjectContainer() {
             <div className="projectContainer">
                 <div className="sideSpace" />
                 <div className="projectOneContainer">
-                    <div className="project1Title">
-                        Seattle Brewery Search
-                        <br />
-                        <a
-                            className="projectLink"
-                            href="https://www.seattlebrewerysearch.com"
-                            target="_blank"
-                        >
-                            <i>www.seattlebrewerysearch.com </i>
-                        </a>
-                        <span className="projectLink"> | </span>
-                        <a
-                            className="projectLink"
-                            href="https://github.com/tdar31/Seattle-Brewery-Search"
-                            target="_blank"
-                        >
-                            <i>Github Repo</i>
-                        </a>
-                    </div>
-                    <img className="homePageSBS" src={homePageSBS} />
-                    <img className="homePageSBS" src={pageSBS} />
-
-                    <div className="projectDescription">
-                        Seattle Brewery Search is a full stack web application
-                        that provides an interactive map that shows the
-                        locations of all the breweries in the greater Seattle
-                        area. The site uses the Google Maps API to generate the
-                        interactive map with custom markers for each brewery.
-                    </div>
-                    <div className="projectTechnologies">
-                        <img
-                            className="htmlLogo"
-                            data-tip="HTML5"
-                            src={htmlLogo}
-                        />
-                        <img
-                            className="cssLogo"
-                            data-tip="CSS3"
-                            src={cssLogo}
-                        />
-                        <img
-                            className="jsLogo"
-                            data-tip="Javascript"
-                            src={jsLogo}
-                        />
-                        <img
-                            className="reactLogo"
-                            data-tip="React"
-                            src={reactLogo}
-                        />
-                        <img
-                            className="gMapsLogo"
-                            data-tip="Google Maps API"
-                            src={gMapsLogo}
-                        />
-                        <img className="mongoDBLogo" src={mongoDBLogo} />
-                        <img
-                            className="mongooseLogo"
-                            data-tip="Mongoose ODM"
-                            src={mongooseLogo}
-                        />
-                        <img
-                            className="chaiLogo"
-                            data-tip="Adobe Photoshop"
-                            src={phLogo}
-                        />
-                        <img
-                            className="chaiLogo"
-                            data-tip="Adobe Illustrator"
-                            src={illLogo}
-                        />
-                    </div>
-                </div>
-                <div className="sideSpace" />
-            </div>
-
-            <div className="projectContainer">
-                <div className="sideSpace" />
-                <div className="projectOneContainer">
                     <div className="projectDescription">
                         All technologies I have experience with:
                     </div>
@@ -391,10 +424,30 @@ function ProjectContainer() {
                         />
                         <img className="mochaLogo" src={javaLogo} />
                         <img
-                            className="cssLogo"
+                            className="pythonLogo"
                             data-tip="Python"
                             src={pythonLogo}
                         />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Tensorflow"
+                            src={tfLogo}
+                        />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Keras"
+                            src={kerasLogo}
+                        />
+                        <img
+                            className="pythonLogo"
+                            data-tip="Numpy"
+                            src={numpyLogo}
+                        />  
+                        <img
+                            className="pythonLogo"
+                            data-tip="Anaconda"
+                            src={condaLogo}
+                        /> 
                         <img className="jqueryLogo" src={jqueryLogo} />
                         <img
                             className="bootstrapLogo"
