@@ -6,6 +6,7 @@ import fyreHome from "../assets/images/fyreHome.png";
 import fyreMatch from "../assets/images/fyreggMatch.png";
 import fruitHome from "../assets/images/fruitclass.png";
 import SLSstill from "../assets/images/STSstill.jpg";
+import SLSgif from "../assets/images/STSgif.webp";
 import ReactTooltip from "react-tooltip";
 //
 import htmlLogo from "../assets/icons/html5.svg";
@@ -83,6 +84,7 @@ function ProjectContainer() {
                         </a>
                     </div>
 
+                    <img className="homePageSBS" src={SLSgif} />
                     <img className="homePageSBS" src={SLSstill} />
 
                     <div className="projectDescription">
