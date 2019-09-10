@@ -93,11 +93,10 @@ function ProjectContainer() {
                         Learning) and a trained CNN supervised image classifier
                         (~3500 images for 9 classes). It is my first foray into
                         any Machine Learning project outside of training image
-                        Classifiers so most of this is pretty new to me. The
-                        project uses Tensorflow 1.8 + Keras, Tesseract-ocr 4.00,
-                        CUDA + CUDNN 9.1 and Anaconda. A much more indepth
-                        README describing the project can be found at the
-                        project's
+                        Classifiers. The project uses Tensorflow 1.8 + Keras,
+                        Tesseract-ocr 4.00, CUDA + CUDNN 9.1 and Anaconda. A
+                        much more indepth README describing the project can be
+                        found at the project's
                         <a
                             className="projectLinkText"
                             href="https://github.com/tdar31/SerpentSLSGameAgentPlugin"
