@@ -112,16 +112,18 @@ function ProjectContainer() {
                     <div className="projectDescription">
                         The image classifier is trained to return which stages
                         the game is in by capturing the entire game screen then
-                        return which trained class it falls under (battle,
-                        death, reward etc.). Depending on the stage it's in the
-                        agent will execute different automated commands to
-                        return the game back to the controlled battle stage in
-                        order to train the agent. Decision making (DDQN)
-                        revolves around which of the five cards drawn to play
-                        each turn. The enemy will always project its next move
-                        (attack, buff, defend etc) so the idea is that based on
-                        certain player stats and what the enemy plans on doing a
-                        decision is made.
+                        returning which trained class it falls in (battle,
+                        death, reward etc.). Depending on the stage the agent
+                        will execute different automated commands to return the
+                        game back to the controlled battle stage in order to
+                        train the agent. Player and enemy stats are captured via
+                        the usage of Tesseract from both predefined and dynamic
+                        regions of the screen. Decision making (DDQN) revolves
+                        around which of the five cards drawn to play each turn.
+                        The enemy will always project its next move (attack,
+                        buff, defend etc) so the idea is that based on certain
+                        player stats, what the enemy plans on doing and the
+                        cards available to the player; a decision is made.
                     </div>
 
                     <div className="projectTechnologies projectMargin">
