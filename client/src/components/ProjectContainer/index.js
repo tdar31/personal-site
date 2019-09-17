@@ -26,11 +26,9 @@ import jqueryLogo from "../assets/icons/jquery-1.svg";
 import sassLogo from "../assets/icons/sass-1.svg";
 import mochaLogo from "../assets/icons/mocha-1.svg";
 import chaiLogo from "../assets/icons/chai.svg";
-import javaLogo from "../assets/icons/java-4.svg";
 import bulmaLogo from "../assets/images/bulma-logo2.png";
 import illLogo from "../assets/icons/adobe-illustrator-cc.svg";
 import phLogo from "../assets/icons/photoshop-cc.svg";
-import prLogo from "../assets/icons/premiere-cc.svg";
 import pythonLogo from "../assets/icons/python-5.svg";
 import tfLogo from "../assets/icons/tensorflow-tf.svg";
 import kerasLogo from "../assets/icons/keras.svg";
@@ -425,7 +423,6 @@ function ProjectContainer() {
                             data-tip="Javascript"
                             src={jsLogo}
                         />
-                        <img className="mochaLogo" src={javaLogo} />
                         <img
                             className="pythonLogo"
                             data-tip="Python"
